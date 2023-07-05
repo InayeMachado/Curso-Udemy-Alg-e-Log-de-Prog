@@ -1,0 +1,70 @@
+Algoritmo "teste_saida"
+
+Var
+A: inteiro
+B: real
+C: caractere
+d: logico
+
+iidade: inteiro
+salario: real
+nome: caractere
+
+pproduto: caractere
+sproduto: caractere
+ppreco: real
+spreco: real
+idade: inteiro
+codigo: inteiro
+genero: caractere
+
+
+Inicio
+
+escreval("1º EXEMPLO")
+escreval("O 'escreval' significa uma quebra de linha")
+escreval("Buenos dias muchacho")
+escreval("Buenos dias muchacha")
+
+escreval
+escreval
+
+escreval("2º EXEMPLO")
+A <- 32
+B <- 2.34567
+C <- "Bom dia"
+D <- VERDADEIRO
+
+escreval(a)
+escreval(b:1:2)
+escreval(c)
+escreval(d)
+
+escreval
+
+iidade <- 21
+salario <- 3100
+nome <- "Inaye Machado"
+
+escreval("3º EXEMPLO")
+escreval("A funcionaria ", nome, " ganha", salario, " e tem", iidade, " anos")
+
+escreval
+
+pproduto <- "Computador"
+sproduto <- "TV"
+ppreco <- 2100.5
+spreco <- 1830.0
+idade <- 30
+codigo  <- 5291
+genero <- "F"
+
+escreval("4º EXEMPLO")
+escreval("O produto ", pproduto, " custa R$ ", ppreco:1:2)
+escreval("O produto", sproduto," custa R$ ", spreco:1:2)
+escreval
+escreval("Codigo = ",codigo)
+escreval
+escreval("Dados da pessoa: ","genero ", genero," e idade ",idade)
+
+Fimalgoritmo
