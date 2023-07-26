@@ -1,0 +1,23 @@
+Algoritmo "Exercício: Troco"
+
+Var
+
+PrecoUnidade, Pagamento, Troco, ValorCompra: real
+QtdComprada: inteiro
+
+Inicio
+
+Escreva("Preço unitário do produto: ")
+leia(PrecoUnidade)
+Escreva("Quantidade comprada: ")
+leia(QtdComprada)
+Escreva("Dinehiro recebido: ")
+leia(Pagamento)
+
+ValorCompra <- PrecoUnidade*QtdComprada
+Troco <- Pagamento - ValorCompra
+
+Escreva("TROCO = ",Troco:4:2)
+
+
+Fimalgoritmo
