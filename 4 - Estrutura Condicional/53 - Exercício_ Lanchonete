@@ -1,0 +1,36 @@
+Algoritmo "Lanchonete"
+
+Var
+codigo, Qtda: inteiro
+total:real
+
+Inicio
+      escreva("Código do produto comprado")
+      leia(codigo)
+      escreva("Quantidade comprada")
+      leia(Qtda)
+      
+      escolha codigo
+           caso 1
+               total<-Qtda*5.0
+               escreva("Valor a pagar: ", total:5:2)
+           
+           caso 2
+                total<-Qtda*3.5
+                escreva("Valor a pagar: ", total:5:2)
+
+           caso 3
+                total<-Qtda*4.8
+                escreva("Valor a pagar: ", total:5:2)
+                
+           caso 4
+                total<-Qtda*8.90
+                escreva("Valor a pagar: ", total:5:2)
+                
+           caso 5
+                total<-Qtda*7.32
+                escreva("Valor a pagar: ", total:5:2)
+
+                fimescolha
+      
+Fimalgoritmo
