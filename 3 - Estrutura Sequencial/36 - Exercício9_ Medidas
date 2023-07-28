@@ -1,0 +1,23 @@
+Algoritmo "Exercício: Medidas"
+
+Var
+
+A, B, C, AreaQuadrado, AreaTriangulo, AreaTrapezio: real
+
+Inicio
+
+Escreva("Digite a medida de A: ")
+leia(A)
+Escreva("Digite a medida de B: ")
+leia(B)
+Escreva("Digite a medida de C: ")
+leia(C)
+
+AreaQuadrado <- A*A
+AreaTriangulo <- (A*B)/2.0
+AreaTrapezio <- ((A+B)*C)/2.0
+
+Escreval("AREA DO QUADRADO = ",AreaQuadrado:6:4)
+Escreval("AREA DO TRIANGULO = ",AreaTriangulo:6:4)
+Escreval("AREA DO TRAPEZIO = ",AreaTrapezio:6:4)
+Fimalgoritmo

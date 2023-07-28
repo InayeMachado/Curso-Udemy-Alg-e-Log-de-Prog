@@ -1,0 +1,15 @@
+Algoritmo "Exercício: Círculo"
+
+Var
+
+R, area: real
+
+Inicio
+
+Escreva("Digite o valor do raio do círculo: ")
+leia(R)
+
+Area <- 3.14159*(Exp (r, 2.0))
+Escreva("AREA = ",area:5:3)
+
+Fimalgoritmo

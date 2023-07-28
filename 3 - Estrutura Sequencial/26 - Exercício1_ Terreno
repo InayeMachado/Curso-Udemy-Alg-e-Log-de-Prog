@@ -1,0 +1,30 @@
+Algoritmo "Exercício1: Terreno"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 26/07/2023
+Var
+largura, comprimento, valorM2, preco, area: real
+
+
+Inicio
+
+Escreva("Digite a largura do terreno: ")
+leia(largura)
+Escreval
+Escreva("Digite o comprimento do terreno: ")
+leia(comprimento)
+Escreval
+Escreva("Digite o valor do metro quadrado: ")
+leia(valorM2)
+Escreval
+
+area <- largura*comprimento
+preco <- area*valorM2
+
+escreval("Area do terreno = ", area:8:2)
+escreval("preço do terreno = ", preco:8:2)
+
+
+Fimalgoritmo

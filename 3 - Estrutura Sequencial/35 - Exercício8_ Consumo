@@ -1,0 +1,18 @@
+Algoritmo "Exercício: Consumo"
+
+Var
+
+Distancia, Combustivel, ConsumoMedio: real
+
+Inicio
+
+Escreva("Distância percorrida: ")
+leia(Distancia)
+Escreva("Combutível gasto: ")
+leia(Combustivel)
+
+ConsumoMedio <- Distancia/Combustivel
+
+Escreva("Consumo medio = ",ConsumoMedio:8:3)
+
+Fimalgoritmo

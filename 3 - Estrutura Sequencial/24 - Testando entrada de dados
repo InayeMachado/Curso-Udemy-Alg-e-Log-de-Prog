@@ -1,0 +1,32 @@
+Algoritmo "Exemplo 1"
+
+Var
+
+ idade: inteiro
+ salario1, salario2 :real
+ nome: caracter
+
+Inicio
+
+Escreva("Digite seu nome: ")
+leia(nome)
+Escreval
+
+Escreva("Digite sua idade: ")
+leia(idade)
+Escreval
+
+Escreva("Digite seu salário do mês anterior: ")
+leia(salario1)
+Escreval
+
+Escreva("Digite seu salário do mês atual: ")
+leia(salario2)
+Escreval
+
+Escreval("Dados Digitados: ")
+Escreval("Nome = ", nome)
+Escreval("Idade = ", idade)
+Escreval("Salário = ", salario1:8:2)
+Escreval("Salário = ", salario2:8:2)
+Fimalgoritmo
