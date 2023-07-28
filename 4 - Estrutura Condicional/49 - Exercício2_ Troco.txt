@@ -1,0 +1,25 @@
+Algoritmo "Troco"
+
+Var
+Qtda: inteiro
+PrecoUnidade, Pagamento, Troco,falta, Total: real
+
+Inicio
+      escreva("Preço unitário do produto: ")
+      leia(PrecoUnidade)
+      escreva("Quantidade comprada: ")
+      leia(Qtda)
+      escreva("Dinehiro Recebido: ")
+      leia(Pagamento)
+
+     Total <- Qtda*PrecoUnidade
+
+     se Pagamento < Total entao
+        falta <- Total-Pagamento
+        escreva("Dinheiro insuficiente. Faltam", falta, " reais")
+     senao
+        Troco <- Pagamento - Total
+           escreva("TROCO = ", troco)
+     fimse
+
+Fimalgoritmo
