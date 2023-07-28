@@ -1,0 +1,28 @@
+Algoritmo "Menor de 3"
+
+Var
+a,b,c: inteiro
+
+Inicio
+escreva("Primeiro valor: ")
+leia(a)
+escreval
+escreva("Segundo valor: ")
+leia(b)
+escreval
+escreva("Terceiro valor: ")
+leia(c)
+
+se (a < b) e (a<c)entao
+      escreval("Menor =", a)
+senao
+   se (b<a)e(b<c)entao
+      escreval("Menor =", b)
+   senao
+        escreval("Menor =", c)
+   fimse
+
+fimse
+
+
+Fimalgoritmo

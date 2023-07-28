@@ -1,0 +1,23 @@
+Algoritmo "Operadora"
+
+Var
+   Valor, ValorFixo, MinutosExtra: real
+   Minutos: inteiro
+Inicio
+
+      ValorFixo <- 50.00
+      escreva("Digite a quantidade de minutos: ")
+      leia(minutos)
+      
+      MinutosExtra <- minutos-100
+
+      se MinutosExtra > 0 entao
+         MinutosExtra <- MinutosExtra*2.0
+         Valor <- ValorFixo + MinutosExtra
+         Escreval("Valor a pagar: ", Valor:4:2)
+         
+      senao
+      escreval("Valor a pagar:", ValorFixo)
+      fimse
+
+Fimalgoritmo
