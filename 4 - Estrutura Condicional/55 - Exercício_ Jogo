@@ -1,0 +1,21 @@
+Algoritmo "Jogos"
+
+Var
+HI, HF, duracao: inteiro
+
+Inicio
+      escreva("Hora inicial:")
+      leia(HI)
+
+      escreva("Hora final:")
+      leia(HF)
+      
+      
+      se HI < HF entao
+         duracao <- HF - HI
+      senao
+           duracao <- 24 - HI + HF
+      fimse
+      escreval("o jogo durou", duracao, "hora(s)")
+
+Fimalgoritmo
