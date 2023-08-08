@@ -1,0 +1,37 @@
+   Algoritmo "Quadrante"
+
+   Var
+   X, Y: real
+
+   inicio
+
+   Escreva("Valor de X:")
+   Leia(X)
+
+   Escreva("Valor de Y:")
+   Leia(Y)
+   
+   se(X>0) e (Y>0) entao
+     escreva("Q1")
+   senao
+     se(X<0) e (Y>0) entao
+      escreva("Q2")
+     senao
+      se(X<0) e (Y<0) entao
+       escreva("Q3")
+      senao
+       se(X>0) e (Y<0) entao
+        escreva("Q4")
+       senao
+        se(X=0) e (Y<>0) entao
+         escreva("Eixo Y")
+        senao
+         se(X<>0) e (Y=0)entao
+          escreva("Eixo X")
+         fimse
+        fimse
+       fimse
+      fimse
+     fimse
+   fimse
+Fimalgoritmo
